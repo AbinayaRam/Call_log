@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     tools:context=".MainActivity"
+    android:weightSum="1">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calllogs1"
+        android:id="@+id/textView2"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:textColor="@color/material_blue_grey_800" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lab1"
+        android:paddingTop="125dp"
+        android:id="@+id/textView"
+        android:layout_gravity="center"
+        android:textSize="25sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:paddingTop="50dp"
+        android:hint="Phone number"
+        android:inputType="phone"
+        android:layout_gravity="center"
+         />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:id="@+id/button"
+        android:layout_marginTop="73dp"
+        android:paddingTop="10dp"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".calllog">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calllogs"
+        android:id="@+id/usern"
+        android:textAppearance="@style/AppTheme"
+        android:textSize="20sp"
+        android:textColor="@color/material_blue_grey_900"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/calllog"
+            android:textSize="20sp"
+            android:textColor="@color/material_blue_grey_900"
+            android:paddingBottom="30dp"
+            />
+</LinearLayout>
+    <LinearLayout
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:orientation="horizontal">
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:scaleType="fitXY"
+        android:id="@+id/allcallsbtn"
+        android:src="@drawable/all"
+        android:onClick="help"
+        />
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/incomingbtn"
+        android:src="@drawable/incmg"
+        android:scaleType="fitXY"
+        android:contentDescription="calltype"
+        android:onClick="help"/>
+
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/missedbtn"
+        android:src="@drawable/missed1"
+        android:scaleType="fitXY"
+        android:onClick="help"
+        />
+
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/outgoingbtn"
+        android:src="@drawable/out"
+        android:scaleType="fitXY"
+        android:onClick="help"
+        />
+</LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello"
+            android:textSize="15sp"
+            android:textAppearance="@style/Base.AlertDialog.AppCompat"
+            android:id="@+id/callog"
+            android:gravity="center"/>
+    </ScrollView>
+
+</LinearLayout>

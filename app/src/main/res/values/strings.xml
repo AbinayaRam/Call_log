@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Call Logs</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello">Call Logs</string>
+    <string name="title">Call Log List</string>
+    <string name="calltype">Outgoing calls</string>
+    <string name="missedcall">Missed Calls</string>
+    <string name="calllogs">Phone Number : </string>
+    <string name="allcalls">AllCalls</string>
+    <string name="lab1">Enter your mobile number</string>
+    <string name="calllogs1">Call Logs</string>
+    <string name="incalls">IncomingCalls</string>
+</resources>
